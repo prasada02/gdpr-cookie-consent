@@ -1850,7 +1850,7 @@ class Gdpr_Cookie_Consent_Admin {
 			unset( $prev_gdpr_option['button_1_selected_text'] );
 			$prev_gdpr_option['button_1_text']              = 'Accept';
 			$prev_gdpr_option['notify_message']             = addslashes( 'This website uses cookies to improve your experience. We\'ll assume you\'re ok with this, but you can opt-out if you wish.' );
-			$prev_gdpr_option['opacity']                    = '0.80';
+			$prev_gdpr_option['opacity']                    = '1';
 			$prev_gdpr_option['template']                   = 'banner-default';
 			$prev_gdpr_option['banner_template']            = 'banner-default';
 			$prev_gdpr_option['popup_template']             = 'popup-default';
@@ -6621,7 +6621,7 @@ class Gdpr_Cookie_Consent_Admin {
 			$the_options['notify_animate_show2']               = isset( $_POST['gcc-gdpr-cookie-on-load2'] ) && ( true === $_POST['gcc-gdpr-cookie-on-load2'] || 'true' === $_POST['gcc-gdpr-cookie-on-load2'] ) ? 'true' : 'false';
 			$the_options['background']                         = isset( $_POST['gdpr-cookie-bar-color'] ) ? sanitize_text_field( wp_unslash( $_POST['gdpr-cookie-bar-color'] ) ) : '#ffffff';
 			$the_options['text']                               = isset( $_POST['gdpr-cookie-text-color'] ) ? sanitize_text_field( wp_unslash( $_POST['gdpr-cookie-text-color'] ) ) : '#000000';
-			$the_options['opacity']                            = isset( $_POST['gdpr-cookie-bar-opacity'] ) ? sanitize_text_field( wp_unslash( $_POST['gdpr-cookie-bar-opacity'] ) ) : '0.80';
+			$the_options['opacity']                            = isset( $_POST['gdpr-cookie-bar-opacity'] ) ? sanitize_text_field( wp_unslash( $_POST['gdpr-cookie-bar-opacity'] ) ) : '1';
 			$the_options['background_border_width']            = isset( $_POST['gdpr-cookie-bar-border-width'] ) ? sanitize_text_field( wp_unslash( $_POST['gdpr-cookie-bar-border-width'] ) ) : '0';
 			$the_options['background_border_style']            = isset( $_POST['gdpr-cookie-border-style'] ) ? sanitize_text_field( wp_unslash( $_POST['gdpr-cookie-border-style'] ) ) : 'none';
 			$the_options['background_border_color']            = isset( $_POST['gdpr-cookie-border-color'] ) ? sanitize_text_field( wp_unslash( $_POST['gdpr-cookie-border-color'] ) ) : '#ffffff';

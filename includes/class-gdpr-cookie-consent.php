@@ -738,7 +738,7 @@ class Gdpr_Cookie_Consent {
 			'button_cancel_button_border_radius'     => '0', // in pixel.
 
 			'cookie_bar_color1' 					 => "#ffffff",
-      		'cookie_bar_opacity1' 					 => "0.80",
+      		'cookie_bar_opacity1' 					 => "1",
       		'cookie_bar_border_width1'				 => "0",
       		'cookie_font1'							 => "inherit",
       		'cookie_text_color1'					 => "#000000",
@@ -747,7 +747,7 @@ class Gdpr_Cookie_Consent {
       		'cookie_bar_border_radius1'				 => "0",
 
 			'cookie_bar_color2' 					 => "#ffffff",
-      		'cookie_bar_opacity2' 					 => "0.80",
+      		'cookie_bar_opacity2' 					 => "1",
       		'cookie_bar_border_width2'				 => "0",
       		'cookie_font2'							 => "inherit",
       		'cookie_text_color2'					 => "#000000",
