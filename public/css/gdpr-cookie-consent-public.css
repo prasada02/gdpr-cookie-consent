@@ -65,7 +65,7 @@
 #gdpr-cookie-consent-bar .gdpr_messagebar_content div.group-description {
   margin: 0;
   padding: 0 0 1rem 0;
-  font-size: inherit;
+  font-size: 16px;
   line-height: inherit;
 }
 .gdprmodal-body
@@ -698,7 +698,7 @@ Bootstrap CSS for frontend UI
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 100%;
+  width: 833px;
   pointer-events: auto;
   background-color: var(--white-100);
   outline: 0;
@@ -3258,5 +3258,22 @@ fieldset:disabled #gdpr-cookie-consent-bar a.btn {
 }
 #gdpr-cookie-consent-bar{
   box-shadow: 0px 1.69px 16.93px 0px rgba(4, 42, 75, 0.11) !important;
-
+}
+#gdpr-cookie-consent-bar.gdpr-popup.banner-almond_column .group-description-buttons{
+  width: 65%;
+  margin: 0;
+}
+#gdpr-cookie-consent-bar.gdpr-popup.banner-almond_column .group-description-buttons #cookie_action_accept{
+  display: block;
+}
+#gdpr-cookie-consent-bar.gdpr-popup.banner-almond_column .group-description-buttons #cookie_action_reject,
+#gdpr-cookie-consent-bar.gdpr-popup.banner-almond_column .group-description-buttons #cookie_action_settings{
+  display: inline-block;
+  width: 38%;
+}
+#gdpr-cookie-consent-bar.gdpr-popup.banner-almond_column .group-description-buttons #cookie_action_settings{
+  margin-left: 9px;
+}
+#gdpr-cookie-consent-bar.gdpr-popup.banner-almond_column .gdpr_messagebar_content div.group-description{
+  width: 90%;
 }
